@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+//LC 51
 bool isSafe(vector<string> &board,int row, int col, int n){ //O(n)
     //horizontal
     for(int j = 0; j<n; j++){
