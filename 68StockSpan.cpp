@@ -1,6 +1,10 @@
 #include<iostream>
 using namespace std;
 int main(){
+    //span -> the span for a given day is the maximum number of consecutive days 
+    // right before (and including) that day for which the stock price was less 
+    // than or equal to the price on the current day.
+    
     //O(n)
     //stock prices
     vector<int> price = {100,80,60,70,60,75,85};
